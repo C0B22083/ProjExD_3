@@ -33,7 +33,7 @@ class Score:
         self.img=self.fonto.render("表示させる文字列",0,色)
         self.img.center=(100,50)
     def update(self,surface,screen):
-        screen.blit(self.img, self.rct)
+        screen.blit(self.img)
 
 class Bird:
     """
